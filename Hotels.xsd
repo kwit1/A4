@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://example.com/Hotels"
+    targetNamespace="http://example.com/Hotels"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
 
-  <!-- Root element - Hotels -->
+  <!-- Root element: Hotels -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Hotel element repeated -->
+        <!-- Hotel element (repeats) -->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
               <!-- Hotel Name (required) -->
               <xs:element name="Name" type="xs:string" />
               
-              <!-- Phone element: can have multiple numbers (unbounded) -->
+              <!-- Phone (multiple allowed) -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
               
-              <!-- Address element with sub-elements -->
+              <!-- Address element -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -26,12 +31,12 @@
                     <xs:element name="State" type="xs:string" />
                     <xs:element name="Zip" type="xs:string" />
                   </xs:sequence>
-                  <!-- NearstAirport is a REQUIRED attribute (note the spelling) -->
+                  <!-- 'NearstAirport' is required (per your assignment figure) -->
                   <xs:attribute name="NearstAirport" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!-- Rating is an optional attribute -->
+            <!-- 'Rating' is optional -->
             <xs:attribute name="Rating" type="xs:string" use="optional" />
           </xs:complexType>
         </xs:element>
