@@ -27,12 +27,12 @@
                                         <xs:element name="Zip" type="xs:string"/>
                                     </xs:sequence>
                                     <!-- Optional attribute for the nearest airport -->
-                                    <xs:attribute name="_NearestAirport" type="xs:string" use="optional"/>
+                                    <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                         <!-- Optional rating attribute -->
-                        <xs:attribute name="_Rating" type="xs:string" use="optional"/>
+                        <xs:attribute name="Rating" type="xs:string" use="optional"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
