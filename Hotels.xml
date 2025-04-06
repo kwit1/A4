@@ -1,137 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
-	<!-- Hotel 1: Westin -->
-	<Hotel _Rating="4.2">
-		<Name>Westin</Name>
-		<Phone>480-968-8885</Phone>
-		<Phone>800-937-8461</Phone>
-		<Address _NearestAirport="Sky Harbor">
-			<Number>11</Number>
-			<Street>E 7th St</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 2: Hyatt Regency -->
-	<Hotel>
-		<Name>Hyatt Regency</Name>
-		<Phone>480-123-4567</Phone>
-		<Address>
-			<Number>123</Number>
-			<Street>Main St</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
-			<Zip>85004</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 3: Marriott Downtown -->
-	<Hotel _Rating="3.8">
-		<Name>Marriott Downtown</Name>
-		<Phone>602-111-2222</Phone>
-		<Address _NearestAirport="Phoenix Airport">
-			<Number>200</Number>
-			<Street>Central Ave</Street>
-			<City>Phoenix</City>
-			<State>AZ</State>
-			<Zip>85003</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 4: Hilton Garden Inn -->
-	<Hotel>
-		<Name>Hilton Garden Inn</Name>
-		<Phone>602-333-4444</Phone>
-		<Address>
-			<Number>101</Number>
-			<Street>University Dr</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 5: DoubleTree -->
-	<Hotel>
-		<Name>DoubleTree</Name>
-		<Phone>480-444-5555</Phone>
-		<Address>
-			<Number>400</Number>
-			<Street>Apache Blvd</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85282</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 6: Residence Inn -->
-	<Hotel _Rating="4.0">
-		<Name>Residence Inn</Name>
-		<Phone>602-222-1111</Phone>
-		<Address>
-			<Number>789</Number>
-			<Street>Mill Ave</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 7: Holiday Inn -->
-	<Hotel>
-		<Name>Holiday Inn</Name>
-		<Phone>480-987-6543</Phone>
-		<Address>
-			<Number>555</Number>
-			<Street>Broadway Rd</Street>
-			<City>Mesa</City>
-			<State>AZ</State>
-			<Zip>85210</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 8: Fairfield Inn -->
-	<Hotel _Rating="3.5">
-		<Name>Fairfield Inn</Name>
-		<Phone>602-888-7777</Phone>
-		<Address _NearestAirport="Mesa Gateway">
-			<Number>901</Number>
-			<Street>Southern Ave</Street>
-			<City>Mesa</City>
-			<State>AZ</State>
-			<Zip>85204</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 9: Aloft -->
-	<Hotel>
-		<Name>Aloft</Name>
-		<Phone>480-555-1212</Phone>
-		<Phone>888-111-2222</Phone>
-		<Address>
-			<Number>700</Number>
-			<Street>University Dr</Street>
-			<City>Tempe</City>
-			<State>AZ</State>
-			<Zip>85281</Zip>
-		</Address>
-	</Hotel>
-
-	<!-- Hotel 10: Courtyard -->
-	<Hotel _Rating="4.3">
-		<Name>Courtyard</Name>
-		<Phone>602-999-8888</Phone>
-		<Address>
-			<Number>800</Number>
-			<Street>Scottsdale Rd</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
-			<Zip>85257</Zip>
-		</Address>
-	</Hotel>
-
+  <Hotel _Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address _NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Hyatt Regency</Name>
+    <Phone>480-123-4567</Phone>
+    <Address>
+      <Number>123</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel _Rating="3.8">
+    <Name>Marriott Downtown</Name>
+    <Phone>602-111-2222</Phone>
+    <Address _NearestAirport="Phoenix Airport">
+      <Number>200</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <Phone>602-333-4444</Phone>
+    <Address>
+      <Number>101</Number>
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>DoubleTree</Name>
+    <Phone>480-444-5555</Phone>
+    <Address>
+      <Number>400</Number>
+      <Street>Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+    </Address>
+  </Hotel>
+  <Hotel _Rating="4.0">
+    <Name>Residence Inn</Name>
+    <Phone>602-222-1111</Phone>
+    <Address>
+      <Number>789</Number>
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Holiday Inn</Name>
+    <Phone>480-987-6543</Phone>
+    <Address>
+      <Number>555</Number>
+      <Street>Broadway Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85210</Zip>
+    </Address>
+  </Hotel>
+  <Hotel _Rating="3.5">
+    <Name>Fairfield Inn</Name>
+    <Phone>602-888-7777</Phone>
+    <Address _NearestAirport="Mesa Gateway">
+      <Number>901</Number>
+      <Street>Southern Ave</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85204</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Aloft</Name>
+    <Phone>480-555-1212</Phone>
+    <Phone>888-111-2222</Phone>
+    <Address>
+      <Number>700</Number>
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel _Rating="4.3">
+    <Name>Courtyard</Name>
+    <Phone>602-999-8888</Phone>
+    <Address>
+      <Number>800</Number>
+      <Street>Scottsdale Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85257</Zip>
+    </Address>
+  </Hotel>
 </Hotels>
