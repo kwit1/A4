@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://kwit1.github.io/A4/Hotels.xsd">
-  
+
+  <!-- Hotel with optional Rating attribute -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <!-- REQUIRED attribute NearstAirport -->
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -14,11 +16,12 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
+  <!-- NearstAirport is required -->
   <Hotel>
     <Name>Hyatt Regency</Name>
     <Phone>480-123-4567</Phone>
-    <Address>
+    <Address NearstAirport="Phoenix Airport">
       <Number>123</Number>
       <Street>Main St</Street>
       <City>Phoenix</City>
@@ -26,11 +29,12 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
-  
+
+  <!-- Another example with both Rating and NearstAirport -->
   <Hotel Rating="3.8">
     <Name>Marriott Downtown</Name>
     <Phone>602-111-2222</Phone>
-    <Address NearestAirport="Phoenix Airport">
+    <Address NearstAirport="Phoenix Airport">
       <Number>200</Number>
       <Street>Central Ave</Street>
       <City>Phoenix</City>
@@ -38,11 +42,12 @@
       <Zip>85003</Zip>
     </Address>
   </Hotel>
-  
+
+  <!-- etc. For EVERY <Address>, you must now add NearstAirport="..." -->
   <Hotel>
     <Name>Hilton Garden Inn</Name>
     <Phone>602-333-4444</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>101</Number>
       <Street>University Dr</Street>
       <City>Tempe</City>
@@ -50,11 +55,11 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel>
     <Name>DoubleTree</Name>
     <Phone>480-444-5555</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>400</Number>
       <Street>Apache Blvd</Street>
       <City>Tempe</City>
@@ -62,11 +67,11 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel Rating="4.0">
     <Name>Residence Inn</Name>
     <Phone>602-222-1111</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>789</Number>
       <Street>Mill Ave</Street>
       <City>Tempe</City>
@@ -74,11 +79,11 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel>
     <Name>Holiday Inn</Name>
     <Phone>480-987-6543</Phone>
-    <Address>
+    <Address NearstAirport="Phoenix Airport">
       <Number>555</Number>
       <Street>Broadway Rd</Street>
       <City>Mesa</City>
@@ -86,11 +91,11 @@
       <Zip>85210</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel Rating="3.5">
     <Name>Fairfield Inn</Name>
     <Phone>602-888-7777</Phone>
-    <Address NearestAirport="Mesa Gateway">
+    <Address NearstAirport="Mesa Gateway">
       <Number>901</Number>
       <Street>Southern Ave</Street>
       <City>Mesa</City>
@@ -98,12 +103,12 @@
       <Zip>85204</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel>
     <Name>Aloft</Name>
     <Phone>480-555-1212</Phone>
     <Phone>888-111-2222</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>700</Number>
       <Street>University Dr</Street>
       <City>Tempe</City>
@@ -111,11 +116,11 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel Rating="4.3">
     <Name>Courtyard</Name>
     <Phone>602-999-8888</Phone>
-    <Address>
+    <Address NearstAirport="Phoenix Airport">
       <Number>800</Number>
       <Street>Scottsdale Rd</Street>
       <City>Scottsdale</City>
@@ -123,5 +128,4 @@
       <Zip>85257</Zip>
     </Address>
   </Hotel>
-  
 </Hotels>
